@@ -19,7 +19,7 @@ end
 
 def find_min_value(array)
   min = 0 
-  array.lenth.time do |index|
+  array.length.time do |index|
     if index == 0 
       array[index] = min
     else
