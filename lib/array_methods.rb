@@ -21,10 +21,10 @@ def find_min_value(array)
   min = 0 
   array.length.times do |index|
     if index == 0 
-      array[index] = min
+      min = array[index]
     else
       if array [index] < min
-        array[index] = min
+        min = array[index]
       end
     end
   end
